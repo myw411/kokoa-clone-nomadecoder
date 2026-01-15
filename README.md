@@ -1,3 +1,3 @@
 # Kokoa clone nomadcoder
 
-It's is the first commit before start!
+It's is the second commit before start!!
