@@ -1,31 +1,26 @@
+/* 왠만하면 html파일에 link연결하는 것보다 css파일 안에 import하는게 더 보기 좋다 */
+@import"reset.css";
+@import "status-bar.css";
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.status-bar{
+
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
     display: flex;
-    justify-content: center;
-}
-
-.status-bar__column:first-child span{
-    margin-right: 5px
-}
-
-.status-bar__column {
-    width: 33%;
-}
-
-.status-bar__column:nth-child(2){
-    display: flex;
-    justify-content: center;
-}
-
-.status-bar__column:last-child {
-    display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     align-items: center;
 }
+.welcome-header__title {
+    margin-bottom: 40px;
+    font-size: 25px;
+}
 
-.status-bar__column .fa-battery-full {
-    margin: 0px 3px;
+.welcome-header__text {
+    width: 60%;
+    opacity: 0.6;
+    /* opacity는 글씨가 약간 회색으로 보이게 함 */
 }
