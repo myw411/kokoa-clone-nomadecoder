@@ -7,14 +7,23 @@
 </head>
 <body>
     <div id="status-bar"></div>
-    <div class="status-bar__column"></div>
-    <span>No Servise</span>
-    <!--WIfi Icon 넣을거임-->
-    <div class="status-bar__column"></div>
-    <span>18:43</span>
-    <div class="status-bar__column"></div>
-    <span>120%</span>
-    <!--배터리 아이콘-->
-    <!--충전표시 아이콘 넣을거임-->
+    <div class="status-bar__column">
+        <span>No Servise</span>
+        <i class="fa-solid fa-wifi"></i><!--와이파이 아이콘-->    
+    </div>
+
+    <div class="status-bar__column">
+        <span>18:43</span>
+    </div>
+
+    <div class="status-bar__column">
+        <span>120%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+    </div>
+
+    <script src="https://kit.fontawesome.com/1d028f5b0d.js" 
+    crossorigin="anonymous"></script>
+    <!--위의 스크립트가 아이콘을 사용할 수 있게 하는 코드 키트임-->
 </body>
 </html>
