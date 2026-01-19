@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="CSS/style.css"> <!--style css파일 연결 함-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Kokoa Clone</title>
 </head>
+
 <body>
-    <div id="status-bar"></div>
-    <div class="status-bar__column">
-        <span>No Servise</span>
-        <i class="fa-solid fa-wifi"></i><!--와이파이 아이콘/ <i>는 icon의 줄임말-->    
-    </div> 
-    <div class="status-bar__column">
-        <span>18:43</span>
-    </div>
-    <div class="status-bar__column">
-        <span>120%</span>
-        <i class="fa-solid fa-battery-full"></i>
-        <i class="fa-solid fa-bolt-lightning"></i>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Servise</span>
+            <i class="fa-solid fa-wifi"></i><!--와이파이 아이콘/ <i>는 icon의 줄임말-->    
+        </div> 
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>120%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
     </div>
 
     <header class="welcome-header">
