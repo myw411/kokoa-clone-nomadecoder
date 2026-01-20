@@ -6,7 +6,7 @@
     width: 100%;
     background-color: #f9f9fa;
     padding: 20px 50px;
-    /*  */
+    /* 밑의 문장은 기존 박스 크기에서 패딩을 준다고 해도 박스의 크기를 바꾸지 말고 기존 가지고 있는 크기에서 패딩에 나눠주라는 의미 */
     box-sizing: border-box;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -16,5 +16,32 @@
     justify-content: space-between;
 }
 .nav__link {
+    position: relative;
     color: #2e363e;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    /* absolute는 가장 가까운 relative를 가진 부모 기준으로 움직이는 거다*/
+    position: absolute;
+    left: 25px;
+    bottom: 15px;
+}
+
+.nav__dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    left: 35px;
+    bottom: 25px;
 }
