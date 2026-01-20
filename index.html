@@ -30,9 +30,11 @@
         </p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="Password"/>
+    <!-- action은 login같은 정보를 어디로 보낼지 즉, 다음에 어느 페이지로 이동할 지
+     method는 정보를 어떤 방식으로 전송 할 지. post는 서버를 지정해 줘야 쓸 수 있고 그냥 쓸 떄에는 get을 쓴다.보안 취약 쥐 -->
+    <form action="friends.html" method="get" id="login-form">
+        <input name="usermane" type="text" placeholder="Email or phone number"/>
+        <input name="password" placeholder="Password"/>
         <input type="submit" value="Log In"/>
         <a href="#">Find Kokoa Account or Password</a>
     </form>
