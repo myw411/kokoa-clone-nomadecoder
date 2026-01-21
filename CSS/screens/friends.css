@@ -5,7 +5,9 @@
     background-color: #fafafa;
     padding: 15px 0px;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    /* components로 일괄 적용한 screen-header의 margin-bottom 때문에 top에 -15px로 간격을 좁혀준다 */
+    margin-top: -15px;
 }
 
 #friends-display-link i{

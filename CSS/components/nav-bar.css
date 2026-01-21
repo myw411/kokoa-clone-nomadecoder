@@ -21,15 +21,8 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width: 26px;
-    height: 26px;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
+    /* 기본 내용은 components/badge.css파일에 있음 */
+
     /* absolute는 가장 가까운 relative를 가진 부모 기준으로 움직이는 거다*/
     position: absolute;
     left: 25px;
