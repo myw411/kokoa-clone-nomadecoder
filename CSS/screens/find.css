@@ -1,0 +1,49 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column; /*row는 옆에 오는거 column은 다음 줄에 오는거. 하나의 div에서 두 줄로 만들고 싶을 땨*/
+    align-items: center;
+}
+
+.find-icons__icon i {
+    font-size: 35px;
+}
+
+.find-icons__icon span {
+    margin-top: 15px;
+}
+
+.screen-header__gear-dot {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    right: 20px;
+    top :55px;
+}
+
+.recommended-friends {
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+
+.recommended-friends__titile {
+    font-size: 12px;
+    color: var(--grey)
+}
+
+.recommended-friends span{
+    margin: 110px 0;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: var(--grey);
+}
