@@ -1,0 +1,75 @@
+#chat-screen {
+    background-color: antiquewhite;
+    height: 1100vh;
+}
+
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+    top: 0px;          
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+#chat-screen .status-bar {
+    z-index: 2;
+}
+
+#chat-screen .alt-header {
+    top: 25px;
+    z-index: 1;
+}
+
+.main-chat {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__timestamp{
+    color: white;
+    background-color:#9fb1bf;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.message-row {
+    width: 100%;
+    display: flex;
+}
+
+.message-row img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.message__author {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.message__info {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message__bubble {
+    background-color: white;
+    padding: 12px 10px;
+    border-radius: 14px;
+    /* 한쪽 모서리만 지칭할 때 아래와 같이 쓴다 */
+    border-top-left-radius: 0;
+    margin-right: 5px;
+}
+
+.message__author,
+.message__time {
+    opacity: 0.8;
+    font-size: 13px;
+}

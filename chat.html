@@ -1,0 +1,65 @@
+<!-- 09 이미지의 html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css"> <!--style css파일 연결 함-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhatting room - Kokoa Clone</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Servise</span>
+            <i class="fa-solid fa-wifi"></i><!--와이파이 아이콘/ <i>는 icon의 줄임말-->    
+        </div> 
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>120%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">포카리리링</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+            <span><i class="fa-solid fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+    
+
+    <main class="main-screen main-chat"> <!--클래스 이름 2개!-->
+        <div class="chat__timestamp">
+            Thursday, March 2, 2026
+        </div>
+
+        <div class="message-row">
+            <img src="my_img.png" >
+            <div class="message-row__content">
+                <span class="message__author">포카리리링</span>
+                <div class="message__info">
+                    <span class="message__bubble">뭐행?</span>
+                    <span class="message__time">19:52</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/1d028f5b0d.js" 
+    crossorigin="anonymous"></script>
+    <!--위의 스크립트가 아이콘을 사용할 수 있게 하는 코드 키트임-->
+</body>
+</html>
