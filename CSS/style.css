@@ -9,12 +9,14 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* screens - 하나의 이미지에만 적용되는 1회적 요소들을 넣어 놓음 */
 @import "screens/login.css"; /* 이미지 02*/
 @import "screens/friends.css"; /* 이미지 03*/
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 
 
 /* 이 style 파일에는 모든 곳에 적용되는 기능들만 적어놓음 */
